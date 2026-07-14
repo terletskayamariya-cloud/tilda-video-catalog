@@ -1589,7 +1589,7 @@ window.VIDEO_CATALOG_BLOCKS = [
     "type": "card",
     "card": {
       "url": "https://kinescope.io/53SoFVcLW6XkBiGjAeo3fe",
-      "title": "Прямой эфир \"Руны - энергия мироздания. Теория и практика\" (2025)",
+      "title": "Ретрит \"Погружение в себя\"",
       "time": "01:16:06",
       "categories": [
         "meditation"
