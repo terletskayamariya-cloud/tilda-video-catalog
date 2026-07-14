@@ -461,13 +461,99 @@
   ===================================================== */
 
   @media (min-width: 640px) and (max-width: 959px) {
-    .video-section { padding: 14px 0; }
+    .video-section {
+      --video-grid-width: 700px;
+      --video-gap: 10px;
+      padding: 18px 0 !important;
+    }
 
-    .video-grid > .video-card--full  .video-cover,
-    .video-grid > .video-card--half  .video-cover,
-    .video-slider  .video-card--third .video-cover { aspect-ratio: 16 / 9; }
+    .video-card {
+      border-radius: 26px !important;
+    }
 
-    .video-grid > .video-card--third .video-cover { aspect-ratio: 4 / 5; }
+    .video-card--half .video-cover {
+      aspect-ratio: 16 / 8.8 !important;
+    }
+
+    .video-card--third .video-cover {
+      aspect-ratio: 3 / 4.8 !important;
+    }
+
+    .video-card--full .video-cover {
+      aspect-ratio: 16 / 7 !important;
+    }
+
+    .video-content {
+      padding: 18px 18px 18px !important;
+    }
+
+    .video-title,
+    .video-card--third .video-title {
+      font-size: 15px !important;
+      line-height: 1.3 !important;
+    }
+
+    .video-bottom {
+      padding-top: 26px !important;
+      gap: 14px !important;
+    }
+
+    .video-card--third .video-bottom {
+      padding-top: 28px !important;
+    }
+
+    .video-time {
+      font-size: 9px !important;
+      gap: 6px !important;
+    }
+
+    .video-time::before {
+      width: 12px !important;
+      height: 12px !important;
+    }
+
+    .video-tag,
+    .video-card--third .video-tag {
+      padding: 6px 13px !important;
+      font-size: 9px !important;
+      border-radius: 5px !important;
+    }
+
+    .video-play {
+      width: 92px !important;
+      height: 92px !important;
+    }
+
+    .video-card--third .video-play {
+      width: 66px !important;
+      height: 66px !important;
+    }
+
+    .video-play::before {
+      border-top-width: 17px !important;
+      border-bottom-width: 17px !important;
+      border-left-width: 25px !important;
+    }
+
+    .video-card--third .video-play::before {
+      border-top-width: 12px !important;
+      border-bottom-width: 12px !important;
+      border-left-width: 18px !important;
+    }
+
+    .video-slider-arrow,
+    .video-portal-arrow {
+      width: 38px !important;
+      height: 38px !important;
+    }
+
+    .video-slider-arrow--next {
+      right: -24px !important;
+    }
+
+    .video-slider-arrow--prev {
+      left: -24px !important;
+    }
   }
 
   /* =====================================================
@@ -643,7 +729,7 @@
     }
 
     .video-slider--horizontal .video-cover {
-      aspect-ratio: 16 / 9;
+      aspect-ratio: 16 / 8.8;
     }
   }
 
