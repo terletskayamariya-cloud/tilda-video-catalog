@@ -36,7 +36,9 @@
 }
 .video-cover.is-loaded {
   animation: none;
-  background: transparent;
+  background: linear-gradient(100deg, #e3e5ec 30%, #eef0f5 50%, #e3e5ec 70%);
+  background-size: 200% 100%;
+  background-position: center;
 }
 @keyframes video-shimmer {
   0% { background-position: 200% 0; }
