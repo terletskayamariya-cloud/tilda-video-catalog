@@ -54,8 +54,8 @@ window.VIDEO_CATALOG_NEW_VIDEOS = [
     time: "01:01:45",
     categories: ["intervyu"],
     layout: "half"
-  },
-  
+  }
+  ];
   
 
 
