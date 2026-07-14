@@ -33,10 +33,32 @@
   //   layout: "half"
   // },
 */
-
 window.VIDEO_CATALOG_NEW_VIDEOS = [
+  {
+    url: "https://kinescope.io/ab3Er8YFavF939GSx4iKVE",
+    title: "Интервью с психологом Ольгой Вильдяевой",
+    time: "01:10:35",
+    categories: ["intervyu"],
+    layout: "full"
+  },
+  {
+    url: "https://kinescope.io/8FQQL6yKEN1VaBfc4Nmh5U",
+    title: "Интервью для каналов «Время Открыть», «Время Любить»",
+    time: "01:23:54",
+    categories: ["intervyu"],
+    layout: "half"
+  },
+    {
+    url: "https://kinescope.io/rAhFo74XBA4crSENpcp9Tj",
+    title: "Интервью для каналов «Время Открыть», «Время Любить»",
+    time: "01:01:45",
+    categories: ["intervyu"],
+    layout: "half"
+  },
+  
+  
 
-];
+
 
 /* Существующий каталог. Этот массив вручную редактировать не нужно. */
 window.VIDEO_CATALOG_BLOCKS = [
