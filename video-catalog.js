@@ -16,7 +16,8 @@
     efir: 'Прямые эфиры',
     family: 'Отношения',
     esoterica: 'Эзотерика',
-    meditation: 'Медитации и практики'
+    meditation: 'Медитации и практики',
+intervyu: 'Интервью'
   };
 
   function escapeHtml(value) {
