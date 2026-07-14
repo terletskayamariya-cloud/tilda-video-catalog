@@ -1590,7 +1590,7 @@ window.VIDEO_CATALOG_BLOCKS = [
     "card": {
       "url": "https://kinescope.io/53SoFVcLW6XkBiGjAeo3fe",
       "title": "Ретрит \"Погружение в себя\"",
-      "time": "01:16:06",
+      "time": "11:38",
       "categories": [
         "meditation"
       ],
