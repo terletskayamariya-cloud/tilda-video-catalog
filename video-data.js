@@ -35,6 +35,15 @@
 */
 window.VIDEO_CATALOG_NEW_VIDEOS = [
     {
+    url: "https://kinescope.io/9vPJfiUTBCTAZKw5mLzo7H",
+    title: "Зачем бизнесмены используют руны?",
+    time: "00:01:29",
+    categories: ["runes"],
+    layout: "third"
+  },
+
+
+  {
     url: "https://kinescope.io/o7E1kFfGC4ADsb33XqBSe1",
     title: "Рожденные в «нулевые»",
     time: "01:11:31",
